@@ -4,10 +4,10 @@ import './App.css';
 function App() {
 
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
-    songName: 'Chasing',
-    songArtist: 'NEFFEX',
-    songSrc: './Assets/songs/Chasing - NEFFEX.mp3',
-    songAvatar: './Assets/Images/image1.jpg'
+    songName: 'BHAJAN(1)',
+    songArtist: 'jarvis',
+    songSrc: './Assets/songs/BHAJAN(1).mp3',
+    songAvatar: './Assets/Images/ohm.jpg'
   })
 
   //UseStates Variables
