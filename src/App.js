@@ -50,47 +50,131 @@ function App() {
 
   const musicAPI = [
     {
-      songName: 'Chasing',
-      songArtist: 'NEFFEX',
-      songSrc: './Assets/songs/Chasing - NEFFEX.mp3',
-      songAvatar: './Assets/Images/image1.jpg'
+      songName: 'BHAJAN(1)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(1).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
     },
     {
-      songName: 'AURORA - Runaway',
-      songArtist: 'Aurora Aksnes',
-      songSrc: './Assets/songs/AURORA - Runaway (Lyrics).mp3',
-      songAvatar: './Assets/Images/image4.jpg'
+      songName: 'BHAJAN(2)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(2).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
     },
     {
-      songName: 'Catch Me If I Fall',
-      songArtist: 'TEGNENT',
-      songSrc: './Assets/songs/Catch Me If I Fall - NEFFEX.mp3',
-      songAvatar: './Assets/Images/image2.jpg'
+      songName: 'BHAJAN(3)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(3).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
     },
     {
-      songName: 'Inspired (Clean)',
-      songArtist: 'NEFFEX',
-      songSrc: './Assets/songs/Inspired (Clean) - NEFFEX.mp3',
-      songAvatar: './Assets/Images/image3.jpg'
+      songName: 'BHAJAN(4)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(4).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
     },
     {
-      songName: 'Baby doll [ slowed + reverb ]',
-      songArtist: 'Kanika Kapoor',
-      songSrc: './Assets/songs/Baby doll [ slowed + reverb ] __ meet bros ,Kanika Kapoor __ jr santu.mp3',
-      songAvatar: './Assets/Images/image5.jpg'
+      songName: 'BHAJAN(5)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(5).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
     },
     {
-      songName: 'Soch (Slowed+Reverbed)',
-      songArtist: 'Hardy Sandhu',
-      songSrc: './Assets/songs/SOCH(Slowed+Reverbed) __ Hardy Sandhu.webm',
-      songAvatar: './Assets/Images/image6.jpg'
+      songName: 'BHAJAN(6)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(6).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
     },
     {
-      songName: 'Apna Bana Le',
-      songArtist: 'Arijit Singh',
-      songSrc: './Assets/songs/Apna Bana Le - Full Audio _ Bhediya _ Varun Dhawan, Kriti Sanon_ Sachin-Jigar,Arijit Singh,Amitabh B.webm',
-      songAvatar: './Assets/Images/image7.jpg'
-    }
+      songName: 'BHAJAN(7)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(7).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(8)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(8).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(9)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(9).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(10)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(10).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(11)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(11).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(12)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(12).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(13)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(13).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(14)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(14).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(15)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(15).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(16)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(16).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(17)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(17).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(18)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(18).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(19)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(19).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(20)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(20).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
+    {
+      songName: 'BHAJAN(21)',
+      songArtist: 'jarvis',
+      songSrc: './Assets/songs/BHAJAN(21).mp3',
+      songAvatar: './Assets/Images/ohm.jpg'
+    },
   ]
 
   const handleNextSong = ()=>{
