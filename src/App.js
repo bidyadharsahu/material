@@ -36,7 +36,6 @@ function App() {
     }
   }
 
-
   //Play Audio Function
   const handleAudioPlay = ()=>{
     if (currentAudio.current.paused) {
@@ -231,7 +230,6 @@ function App() {
     setAudioProgress(isNaN(progress)? 0 : progress)
   }
 
-
   const vidArray = ['./Assets/Videos/video1.mp4','./Assets/Videos/video2.mp4','./Assets/Videos/video3.mp4','./Assets/Videos/video4.mp4','./Assets/Videos/video5.mp4','./Assets/Videos/video6.mp4'];
 
   const handleChangeBackground = ()=>{
@@ -242,9 +240,7 @@ function App() {
     }
   }
 
-
   return (
-    <>
     <div className="container">
       <audio src='./Assets/songs/Chasing - BHAJAN(1).mp3' ref={currentAudio} onEnded={handleNextSong} onTimeUpdate={handleAudioUpdate}></audio>
       <video src={vidArray[videoIndex]} loop muted autoPlay className='backgroundVideo'></video>
@@ -265,9 +261,7 @@ function App() {
           <i className='fa-solid fa-forward musicControler' onClick={handleNextSong}></i>
         </div>
       </div>
-      </div>
     </div>
-    </>
   );
 }
 
