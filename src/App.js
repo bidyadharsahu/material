@@ -246,7 +246,7 @@ function App() {
   return (
     <>
     <div className="container">
-      <audio src='./Assets/songs/Chasing - NEFFEX.mp3' ref={currentAudio} onEnded={handleNextSong} onTimeUpdate={handleAudioUpdate}></audio>
+      <audio src='./Assets/songs/Chasing - BHAJAN(1).mp3' ref={currentAudio} onEnded={handleNextSong} onTimeUpdate={handleAudioUpdate}></audio>
       <video src={vidArray[videoIndex]} loop muted autoPlay className='backgroundVideo'></video>
       <div className="blackScreen"></div>
       <div className="music-Container">
@@ -265,8 +265,6 @@ function App() {
           <i className='fa-solid fa-forward musicControler' onClick={handleNextSong}></i>
         </div>
       </div>
-      <div className="changeBackBtn" onClick={handleChangeBackground}>
-        Change Background
       </div>
     </div>
     </>
